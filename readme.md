@@ -10,3 +10,6 @@ The data is generated as follows
 - `eversmoke` ~ $\operatorname{Bernoulli}(0.2)$
 - `death` ~ $\operatorname{Bernoulli}(p_i)$, where $p_i$ is a function of the $i$-th observation of `age`, `bmi`, `female`, and `eversmoke`.
 
+## Analysis
+
+This repository also contains some Stata code (`1-script-2-perform-analysis.do`) that performs some analysis on the generated data and saves the results to a log file called `2-results-2-log-of-analysis.txt`.
