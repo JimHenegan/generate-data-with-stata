@@ -8,25 +8,25 @@
              log:  C:\Users\jahenegan\Desktop\git-repos\generate-data-with-stata\resu
       > lts.smcl
         log type:  smcl
-       opened on:  21 Nov 2022, 10:36:20
+       opened on:  21 Nov 2022, 10:40:46
       
      1 . 
      2 . // Run logistic regression model
      3 . logistic death eversmoke age bmi female
       
       Logistic regression                                     Number of obs =  1,000
-                                                              LR chi2(4)    = 290.28
+                                                              LR chi2(4)    = 281.11
                                                               Prob > chi2   = 0.0000
-      Log likelihood = -547.93668                             Pseudo R2     = 0.2094
+      Log likelihood = -552.52239                             Pseudo R2     = 0.2028
       
       ------------------------------------------------------------------------------
              death | Odds ratio   Std. err.      z    P>|z|     [95% conf. interval]
       -------------+----------------------------------------------------------------
-         eversmoke |   1.556764   .2902776     2.37   0.018     1.080204     2.24357
-               age |   1.119455   .0101772    12.41   0.000     1.099685    1.139581
-               bmi |   1.271732   .0349923     8.74   0.000     1.204965    1.342199
-            female |   1.030889   .1518761     0.21   0.836     .7723395    1.375991
-             _cons |   4.99e-07   5.36e-07   -13.50   0.000     6.07e-08    4.10e-06
+         eversmoke |    1.79581   .3340937     3.15   0.002     1.247103     2.58594
+               age |   1.103011   .0095691    11.30   0.000     1.084414    1.121926
+               bmi |   1.328848   .0375152    10.07   0.000     1.257317    1.404449
+            female |   .8714568   .1277784    -0.94   0.348     .6537887    1.161594
+             _cons |   5.32e-07   5.69e-07   -13.51   0.000     6.54e-08    4.33e-06
       ------------------------------------------------------------------------------
       Note: _cons estimates baseline odds.
       
@@ -36,5 +36,5 @@
              log:  C:\Users\jahenegan\Desktop\git-repos\generate-data-with-stata\resu
       > lts.smcl
         log type:  smcl
-       closed on:  21 Nov 2022, 10:36:24
+       closed on:  21 Nov 2022, 10:40:50
       -------------------------------------------------------------------------------
