@@ -8,7 +8,7 @@
              log:  C:\Users\jahenegan\Desktop\git-repos\generate-data-with-stata\resu
       > lts.smcl
         log type:  smcl
-       opened on:  21 Nov 2022, 10:32:07
+       opened on:  21 Nov 2022, 10:36:20
       
      1 . 
      2 . // Run logistic regression model
@@ -36,5 +36,5 @@
              log:  C:\Users\jahenegan\Desktop\git-repos\generate-data-with-stata\resu
       > lts.smcl
         log type:  smcl
-       closed on:  21 Nov 2022, 10:32:07
+       closed on:  21 Nov 2022, 10:36:24
       -------------------------------------------------------------------------------

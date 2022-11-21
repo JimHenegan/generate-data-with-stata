@@ -13,3 +13,7 @@ The data is generated as follows
 ## Analysis
 
 This repository also contains some Stata code (`1-script-2-perform-analysis.do`) that performs some analysis on the generated data and saves the results to a log file called `2-results-2-log-of-analysis.txt`.
+
+## Main Script (Entrypoint for Project)
+
+The entrypoint for the project is `1-script-0-main.do`.  This scripts calls `1-script-1-generate-data.do` and `1-script-2-perform-analysis.do`.
