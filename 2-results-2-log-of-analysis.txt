@@ -5,36 +5,36 @@
       
       -------------------------------------------------------------------------------
             name:  <unnamed>
-             log:  C:\Users\xzhu3\Desktop\git test\generate-data-with-stata\results.s
-      > mcl
+             log:  C:\Users\jfaucette\OneDrive - University of Mississippi Medical Ce
+      > nter\@Scratch\221130 Git\generate-data-with-stata\results.smcl
         log type:  smcl
-       opened on:  21 Nov 2022, 12:17:09
+       opened on:  30 Nov 2022, 11:03:48
       
      1 . 
      2 . // Run logistic regression model
      3 . logistic death eversmoke age bmi female
       
-      Logistic regression                                     Number of obs =    999
-                                                              LR chi2(4)    = 989.48
+      Logistic regression                                     Number of obs =  1,000
+                                                              LR chi2(4)    = 805.09
                                                               Prob > chi2   = 0.0000
-      Log likelihood = -197.56915                             Pseudo R2     = 0.7146
+      Log likelihood = -290.35972                             Pseudo R2     = 0.5810
       
       ------------------------------------------------------------------------------
              death | Odds ratio   Std. err.      z    P>|z|     [95% conf. interval]
       -------------+----------------------------------------------------------------
-         eversmoke |   2.952418   1.018742     3.14   0.002     1.501301    5.806145
-               age |   1.853113   .0867031    13.18   0.000     1.690737    2.031084
-               bmi |   1.450434   .0784714     6.87   0.000     1.304507    1.612686
-            female |    .797948   .2046006    -0.88   0.379     .4827468    1.318955
-             _cons |   7.94e-25   3.47e-24   -12.71   0.000     1.53e-28    4.13e-21
+         eversmoke |   2.293563   .6330867     3.01   0.003     1.335228    3.939724
+               age |   1.478008   .0385152    14.99   0.000     1.404415    1.555457
+               bmi |   1.324285   .0542912     6.85   0.000     1.222039    1.435086
+            female |   1.025588   .2155164     0.12   0.904     .6793627     1.54826
+             _cons |   1.63e-16   4.17e-16   -14.22   0.000     1.09e-18    2.44e-14
       ------------------------------------------------------------------------------
       Note: _cons estimates baseline odds.
       
      4 . 
      5 . log close
             name:  <unnamed>
-             log:  C:\Users\xzhu3\Desktop\git test\generate-data-with-stata\results.s
-      > mcl
+             log:  C:\Users\jfaucette\OneDrive - University of Mississippi Medical Ce
+      > nter\@Scratch\221130 Git\generate-data-with-stata\results.smcl
         log type:  smcl
-       closed on:  21 Nov 2022, 12:17:13
+       closed on:  30 Nov 2022, 11:03:50
       -------------------------------------------------------------------------------
