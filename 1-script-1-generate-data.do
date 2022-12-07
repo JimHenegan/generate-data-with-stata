@@ -17,7 +17,7 @@ Algorithm to generate the p_i values
 
 // Create a variable called "lin_com":
 // a linear combination of the age, bmi, female, and eversmoke values
-gen lin_com = 0.4 * age + 0.3 * bmi - 0.04 * female + 0.6 * eversmoke
+gen lin_com = 0.7 * age + 0.3 * bmi - 0.04 * female + 0.6 * eversmoke
 
 // Find the mean of lin_com so that we can "center" our lin_com values
 summarize lin_com
